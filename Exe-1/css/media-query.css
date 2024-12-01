@@ -1,0 +1,552 @@
+
+/*Repositorio */
+
+/* ============================================ Para celular ================================================ */
+@media (max-width:767px){
+ 
+
+/**************************************** Header **************************************/
+.menu-principal {
+    width: 767px;
+    height: 60px;
+    background: #252323; 
+}
+.logo{
+    width: 767px;
+    position: absolute;
+    background-image: url(../img/banner-2.jpg);
+}
+
+/**************************************** Menu **************************************/
+.menu-urls{
+    width: 767px;
+    height: 50px;
+    background: #252323;   
+}
+.busca{
+    width: 767px;
+    padding: 10px 0;
+}      
+#botao{
+    background-color: #ca9d0a;
+}
+/********************************* Slader **********************************/
+.slader{
+    background-image: url(../img/phone-1.jpg);
+    width: 767px;
+    height: 450px;
+}
+.slader:hover{
+    background-image: url(../img/phone-2.jpg);
+    width: 767px;
+    height: 400px;
+}
+.slader-1 h1{
+    font-size: 40px;
+}
+.slader-1 p{
+    font-size: 20px;
+}
+.ver-mais a{
+    margin-right: 280px;
+}
+
+/********************************* Destaque **********************************/
+.curiosidade{
+    width:767px;
+}
+
+.pub img{
+    width: 320px;
+    height: 340px;
+    float: left;
+}
+.pub h1{
+    font-size: 40px;
+ }
+.pub p{
+    font-size: 15px;
+ }
+
+ /********************************* Serviços **********************************/
+.servico{
+    width: 767px;
+    height: 550px;   
+}
+.servico h1{
+    font-size: 20px;
+}
+.serv{
+    padding-left: 50px;
+    padding-right: 100px;
+    width: 10%;
+}
+.serv img{
+    width: 200px;
+    height: 200px;
+    padding: 5px;
+}
+.serv h2{
+    font-size: 15px;
+    width: 200px;
+}
+.serv p{
+    width: 200px;
+    height: 200px;
+}
+.serv a{
+    width: 180px;
+    display: block;
+    text-align: center;
+    font-size: 14px;
+}
+/********************************* Recursos **********************************/
+.recurso{
+    width: 767px;
+    height: 370px;
+}
+.recurso img{
+    width: 300px;
+    height: 300px;
+}
+.re-1 {
+    padding-left: 50px;
+    padding-right: 90px;
+    width: 50px;
+}
+.re-1 h2{
+    width: 200px;
+    font-size: 16px;
+}
+.re-1 p{
+    display: block;
+    width: 200px;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+/********************************* Time **********************************/
+.time{
+    width: 767px;
+    height: 500px;
+    
+}
+.equipe-1 {
+    padding-left: 130px;
+    padding-right: 100px;
+    width: 15%;
+}
+.equipe img{
+    width: 150px;
+    height: 150px;
+}
+.equipe-1 h2{
+    font-size: 16px;
+    width: 200px;
+    height: 20px;
+}
+.equipe-1 p{
+    text-align: left;
+    width: 200px;
+    height: 200px;
+}
+.azul{
+    display: block;
+    width: 200px;
+    font-size: 14px;
+}
+/********************************* Boletim de informação **********************************/
+.informacao{
+    width: 767px;
+    height: 300px;
+   
+}
+
+.informacao h1{
+    font-size: 30px;
+}
+
+.informacao p{
+    font-size: 16px;
+}
+
+.email input{
+    width: 620px;
+}
+/********************************* Rodape**********************************/
+.rodape{
+    width: 767px;
+ }
+}
+
+/*=================== Estilo Serviços ====================*/
+.novo{
+    width: 767px;
+}
+.yes img{
+    width: 300px;
+    height: 300px;
+    }
+.yes p{
+  width: 600px;
+  margin-top: 20px;
+}
+
+.cliente{
+    width: 767px;
+    height: 650px;
+    margin: 0 auto;
+}
+.clien{
+    width: 767px;
+    margin-left: 30px;
+}
+
+.clien-2{
+    width: 767px;
+    margin-left: 30px;
+}
+
+.clien{
+    width: 767px;
+}
+
+/*=================== Blog ====================*/
+.blog {
+    width: 767px;
+    height: 1300px;
+}
+
+.blo-1 img{
+    width: 700px;
+    height: 600px;
+    top: 60px;
+    margin-left: 30px;
+    border-radius: 5px;
+}
+
+.papa{
+    width: 700px;
+    height: 550px;
+    margin-top: 80px;
+  }
+
+  .client{
+    width: 767px;
+    height: 500px;
+    background-color: #495972;
+}
+
+/*=================== Sobre ====================*/
+.Sobre{
+    width: 767px;
+    height: 1400px; 
+}
+.sob img{
+    margin-right: 130px;
+}
+.sob h1{
+    font-size: 40px;
+ }
+.sob p{
+    font-size: 16px;
+ }
+ /*=================== Conctato ====================*/
+ .conctato{
+    width: 767px;
+    height: 680px;
+}
+
+fieldset{
+    width: 40px;
+    height: 600px;
+    float: right;
+    margin-top: 30px;
+    margin-right: 10px;
+}
+
+fieldset input{
+    width: 180px;
+    height: 10px;
+}
+
+fieldset textarea{
+    width: 180px;
+    height: 200px;
+}
+
+fieldset > input[type=submit] {
+    width: 210px;
+}
+
+.cont img{
+    border: #e2e2e2 2px solid;
+    width: 280px;
+    float: left;
+    margin-left: 60px;
+    margin-top: 30px;
+}
+
+
+
+/********************************* Fim **********************************/
+
+/* ============================================ Para Tablet ================================================ */
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+  
+    
+/************************************Header**************************************/
+
+.menu-principal {
+    width: 1024px;
+    background-color: #252323;
+}
+
+.logo{
+    width: 1024px;
+    background-image: url(../img/banner-3.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+ 
+#logo{
+    float: left;
+}
+   
+/************************************Menu**************************************/
+.menu-urls{
+    width: 1024px;
+}
+
+.header-2 ul li {
+    margin-left: 15px;
+}
+
+
+.busca{
+    width: 1024px;
+}
+
+/********************************* Slader **********************************/
+.slader{
+    background-image: url(../img/tabet-1.jpg);
+    width: 1024px;
+    height: 450px;
+}
+
+.slader:hover{
+    background-image: url(../img/tabet-2.jpg);
+    width: 1024px;
+    height: 400px;
+}
+
+.ver-mais a{
+    margin-right: 380px;
+}
+
+.ver-mais a:hover{
+    background: #063377;
+    transition: background-color 3s;
+}
+
+/********************************* Destaque **********************************/
+.curiosidade{
+    width: 1024px;
+    height: 400px;
+}
+
+.pub img{
+    width: 320px;
+    height: 340px;
+    float: left;
+}
+.pub h1{
+    font-size: 40px;
+ }
+.pub p{
+    font-size: 16px;
+ }
+
+
+/********************************* Serviços **********************************/
+.servico{
+    width: 1024px;
+    height: 550px;   
+}
+.servico h1{
+    font-size: 20px;
+}
+.serv{
+    padding-left: 70px;
+    padding-right: 150px;
+    width: 10%;
+}
+.serv img{
+    width: 200px;
+    height: 200px;
+    padding: 5px;
+}
+.serv h2{
+    font-size: 15px;
+    width: 200px;
+}
+.serv p{
+    width: 200px;
+    height: 200px;
+    
+}
+.serv a{
+    width: 200px;
+    display: block;
+    text-align: center;
+    font-size: 16px;
+}
+/********************************* Recursos **********************************/
+.recurso{
+    width: 1024px;
+    height: 370px;
+}
+.recurso img{
+    width: 300px;
+    height: 300px;
+}
+.re-1 {
+    padding-left: 80px;
+    padding-right: 90px;
+    width: 100px;
+}
+.re-1 h2{
+    width: 200px;
+    font-size: 16px;
+}
+.re-1 p{
+
+    display: block;
+    width: 300px;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+/********************************* Time **********************************/
+.time{
+    width: 1024px;
+    height: 500px;
+}
+.equipe-1 {
+    padding-left: 200px;
+    padding-right: 140px;
+    width: 15%;
+    margin-top: 40px;
+}
+.equipe img{
+    width: 150px;
+    height: 150px;
+}
+.equipe-1 h2{
+    font-size: 16px;
+    width: 200px;
+    height: 20px;
+}
+.equipe-1 p{
+    text-align: left;
+    width: 200px;
+    height: 200px;
+}
+.azul{
+    display: block;
+    width: 200px;
+    font-size: 14px;
+}
+/********************************* Rodape**********************************/
+.rodape{
+    width: 1024px;
+ }
+/********************************* Outros**********************************/
+ .informacao{
+    width: 1024px;  
+}
+
+.novo{
+    width: 1024px;
+}
+.blog {
+    width: 1024px;
+    height: 1300px;
+}
+
+.blo-1 img{
+    width: 700px;
+    height: 600px;
+    top: 60px;
+    margin-left: 160px;
+    border-radius: 5px;
+}
+
+.papa{
+    width: 700px;
+    height: 550px;
+    margin-top: 80px;
+  }
+
+  .client{
+    width: 1024px;
+    height: 500px;
+    background-color: #495972;
+}
+/*=================== Sobre ====================*/
+.Sobre{
+    width: 1024px;
+    height: 950px; 
+}
+.sob img{
+    margin-right: 130px;
+}
+.sob h1{
+    font-size: 40px;
+ }
+.sob p{
+    font-size: 16px;
+ }
+ /*=================== Conctato ====================*/
+ .conctato{
+    width: 1024px;
+    height: 680px;
+}
+
+fieldset{
+    width: 40px;
+    height: 600px;
+    margin-right: 10px;
+}
+
+fieldset input{
+    width: 180px;
+    height: 10px;
+}
+
+fieldset textarea{
+    width: 180px;
+    height: 200px;
+}
+
+fieldset > input[type=submit] {
+    width: 210px;
+}
+
+.cont img{
+    border: #e2e2e2 2px solid;
+    width: 280px;
+    float: left;
+    margin-left: 60px;
+    margin-top: 30px;
+}
+
+}
+
+/********************************* Fim **********************************/
+
+
+
+
